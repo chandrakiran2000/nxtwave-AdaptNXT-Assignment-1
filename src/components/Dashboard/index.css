@@ -1,0 +1,122 @@
+
+
+.main-dashboard-card{
+    height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.side-bar-card{
+    min-width: 240px;
+    background-color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.btn-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.left-btn{
+    height: 40px;
+    width: 90%;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #64748b;
+    font-size: 16px;
+    padding:10px;
+}
+
+.active-btn {
+    color: blueviolet;
+    background-color: rgb(242, 231, 253);
+    border-radius: 7px;
+}
+
+
+
+.center-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-card{
+    background-color: #f7f1f1;
+    background-color: #f2f2f7;
+    padding-top: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    height: 43px;
+    display: flex;
+}
+.dashboard-heading{
+    margin-top: 0px;
+    color: blueviolet;
+    font-size: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.reacharts-card{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #ede7e7;
+    background-color: #e9ecf1;
+}
+
+.line-chart-card{
+    background-color: #ffffff;
+    width: 70%;
+    height: 90vh;
+    margin: 15px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pie-chart-card{
+    background-color: #ffffff;
+    width: 30%;
+    height: 90vh;
+    margin: 15px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reacharts-heading-cart{
+    width: 100%;
+    padding: 15px;
+    margin: 0px;
+    border-bottom: 1.5px solid #e9ecf1;
+}
+.reacharts-heading-text{
+    color: #161625;
+    font-size: 18px;
+}
+
+.chart-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+}
